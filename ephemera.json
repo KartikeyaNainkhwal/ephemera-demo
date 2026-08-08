@@ -1,0 +1,9 @@
+{
+  "runtime": "nodejs@22",
+  "port": 3000,
+  "withDatabase": true,
+  "buildCommands": ["npm install --omit=dev"],
+  "deployFiles": ["./server.js", "./package.json", "./node_modules"],
+  "startCommand": "npm start",
+  "ttlMinutes": 240
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ephemera-demo-taskboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A small full-stack task board used to demonstrate Ephemera preview environments.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}
