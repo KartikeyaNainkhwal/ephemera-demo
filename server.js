@@ -24,8 +24,8 @@ const PORT = Number(process.env.PORT ?? 3000);
  * ------------------------------------------------------------------ */
 const THEME = {
   name: 'Taskboard',
-  accent: '#3b82f6',
-  tagline: 'Plan the work. Work the plan.',
+  accent: '#22c55e',
+  tagline: 'Shipped is better than perfect.',
 };
 
 const pool = new Pool({
